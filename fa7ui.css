@@ -497,6 +497,7 @@ html {
 .font-cursive {
     font-family: 'Shadows Into Light Two', cursive;
 }
+/* fonts fim */
 
 /* TIPOGRAFIA */
 
@@ -543,31 +544,37 @@ h6{
 
 a:link {
     color: black;
+    text-decoration: none;
 }
 a:visited {
-    color: gray;
+    color: black;
+    
 }
 a:hover {
     color: lightgray;
     text-decoration: underline;
 }
 a:active {
-    /*todo*/
+    color: gray;
 }
+/* TIPOGRAFIA - fim */
+
 
 /* UTILS */
 .text-center{
     text-align: center;
 }
+/* UTILS - fim */
+
 
 /* lAYOUT FUILDO PARA IMG E VIDEOS */
-.img-responsive {
+.fluid-image {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.flex-video {
+.fluid-video {
     position: relative;
     height: 0;
     padding-bottom: 75%;
@@ -575,24 +582,26 @@ a:active {
     overflow: hidden;
 }
 
-.flex-video.widescreen {
+.fluid-video.widescreen {
     padding-bottom: 56.25%;
 }
 
-.flex-video.vimeo {
+.fluid-video.vimeo {
     padding-top: 0;
 }
 
-.flex-video iframe,
-.flex-video object,
-.flex-video embed,
-.flex-video video {
+.fluid-video iframe,
+.fluid-video object,
+.fluid-video embed,
+.fluid-video video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
+/* lAYOUT FUILDO PARA IMG E VIDEOS - fim */
+
 
 /* BOX - Container para layout com margens laterais */
 .box, .box-fluid {
@@ -602,6 +611,84 @@ a:active {
   margin-left: auto;
 }
 
+/* TABELAS */
+
+table {
+  background-color: transparent;
+}
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+
+
+  /*border: 1px solid #ddd;*/ /* estilo para adicionar borda ao redor das tabelas */
+
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+
+  /*border: 1px solid #ddd;*/ /* estilo para adicionar borda as tabelas */
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td {
+  border-bottom-width: 2px;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.table tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+/* TABELAS - FIM */
+
+
+/* GRID */
 
 .row {
   margin-right: -15px;
@@ -610,9 +697,6 @@ a:active {
   /* Resolvendo problema de espaço em branco entre elementos com posicionamento inline-block: https://stackoverflow.com/questions/18262300/two-inline-block-elements-each-50-wide-do-not-fit-side-by-side-in-a-single-ro */
   font-size: 0;
 }
-
-
-/* GRID */
 
 /*
 

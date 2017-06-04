@@ -1,4 +1,4 @@
-Deve ter um nome - OK - fa7ui framework css
+﻿Deve ter um nome - OK - fa7ui framework css
 
 • Tem que possuir ao menos 3 breakpoints para tamanhos específicos: desktop, tablet, mobile - OK
 
@@ -12,9 +12,9 @@ Deve ter um nome - OK - fa7ui framework css
 
 • Deve possuir opção de layout com box ou sem (container) - OK
 
-• Deve fazer que as imagens e videos sejam fluidas - Em andamento
+• Deve fazer que as imagens e videos sejam fluidas - OK
 
-• Tabelas devem ser sem bordas e com collapse; linhas ímpares e pares com layouts distintos
+• Tabelas devem ser sem bordas e com collapse; linhas ímpares e pares com layouts distintos - OK
 
 • Deve fornecer ao menos 2 opções de paletas de cores padronizadas
 
@@ -24,8 +24,8 @@ Deve ter um nome - OK - fa7ui framework css
 
 • Deve permitir utilizar menu horizontais
 
-• Deve ser disponibilizado no github
+• Deve ser disponibilizado no github - OK
 
-• Deve ser apresentado um conteúdo web como prova de conceito
+• Deve ser apresentado um conteúdo web como prova de conceito - Em andamento
 
-• Deve ter características identificáveis advindas do Bootstrap e do Materialize
+• Deve ter características identificáveis advindas do Bootstrap e do Materialize - OK - Bootstrap
