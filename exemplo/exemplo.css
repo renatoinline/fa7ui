@@ -11,6 +11,20 @@ code {
     color: #880000;
 }
 
+.primary-colors {
+    color: blue;
+}
+
+
+.menu-horizontal > ul > li {
+    list-style: none;
+    display: inline-block;
+    border: 3px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+    
+
 
 #menu ul {
     list-style: none;
