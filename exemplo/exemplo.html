@@ -83,7 +83,7 @@
                                 <a href="#imageVideo">Imagem e Vídeo</a>
                             </li>
                             <li>
-                                <a href="#menuhorizont">Menu Horizontal</a>
+                                <a href="#menuHorizont">Menu Horizontal</a>
                             </li>
                             <li>
                                 <a href="#tabelas">Tabelas</a>
@@ -189,19 +189,22 @@
 
                         <!-- Menu Horizontal -->
                         <h2>Menu</h2>
-                        <h3 id="menuhorizont">Menu Horizontal</h3>
-                        <div class="menu-horizontal">
-                            <ul>
-                                <li><a href="#">Cadastro</a></li>
-                                <li><a href="#">Lançamentos</a></strong></li>
-                                <li><a href="#">Compras</a></li>
-                                <li><a href="#">Contatos</a></li>
-                                <li><a href="#">Quem somos</a></li>
-                            </ul>
-                        </div>
-                        <p>Menus horizontais podem ser usados com a adição da classe <code>.menu-horizontal</code>.</p>
+                        <h3 id="menuHorizont">Menu Horizontal</h3>
 
-                         
+                        <div class="exemplo">
+                            <div class="menu-horizontal">
+                                <ul>
+                                    <li><a href="#">Cadastro</a></li>
+                                    <li><a href="#">Lançamentos</a></strong></li>
+                                    <li><a href="#">Compras</a></li>
+                                    <li><a href="#">Contatos</a></li>
+                                    <li><a href="#">Quem somos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Menus horizontais podem ser usados com a adição da classe <code>.menu-horizontal</code> em uma <code>&lt;ul&gt;</code>.</p>
+
+                        <p>Exemplo:</p> 
                         <pre>
                         <code class="html">&lt;div class="menu-horizontal"/&gt;<br>&nbsp;&lt;ul&gt;<br> &nbsp;&nbsp;&lt;li&gt; &lt;a href="#">Cadastro &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;&lt;a href="#">Lançamentos &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&lt;li&gt; &lt;a href="#">Contatos &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&lt;ul/&gt;<br>&lt;div/&gt;
                         </code>
@@ -245,7 +248,8 @@
 
                         <p>Estilos para Tabelas podem ser usados com a adição da classe <code>.table</code>.</p>
 
-                        <pre>
+                        <p>Exemplo:</p>
+                        <pre>    
                         <code class="html">&lt;table class="table"/&gt;<br>&nbsp;&lt;thead class="header-tab"&gt;<br>&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Produtos&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Categorias&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Preços&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Ações&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/tr&gt;&nbsp;<br>&nbsp;&nbsp;&lt;thead&gt;<br>&nbsp;&lt;tbody&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Produto 1&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Alimentos&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;20,00&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Preço&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Ações&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&lt;/tbody&gt;<br>&lt;/table&gt;
                         </code>
                         </pre>    
@@ -263,7 +267,8 @@
                         podendo ser usado em um <code>&lt;button&gt;</code> ou <code>&lt;input&gt;</code> elemento <code> &lt;p&gt;</code>;
 
                         <div class="exemplo">    
-                        <pre><code class="html">&lt;button class="botao-padrao" type="submit" &gt;Button &lt;Button/&gt;<br>&lt;input class="botao-padrao" value="Input" type="button" &gt;<br>&lt;input class="botao-padrao" value="Submit" type="submit" &gt;</code></pre>
+                        <p>Exemplo:</p>    
+                        <pre><code class="html">&lt;button class="botao-padrao cor-alerta" type="submit" &gt;Button &lt;Button/&gt;<br>&lt;input class="botao-padrao" value="Input" type="button" &gt;<br>&lt;input class="botao-padrao cor-sucesso" value="Submit" type="submit" &gt;</code></pre>
                         </div>
 
                         <!-- Cores -->
@@ -288,6 +293,7 @@
                         <p>Cores podem ser usadas com a adição da classe <code>.cor-alerta</code>, <code>.cor-info</code>, <code>.cor-sucesso</code>.
 
                         <div class="exemplo">    
+                        <p>Exemplo:</p>    
                         <pre><code class="html">&lt;div class="cor-alerta"&gt;<br>&nbsp;&lt;strong&gt; Avisos de Informações.&lt;strong/&gt;<br>&nbsp;&nbsp;&lt;a class="close" data-dismiss="alert" href="#" aria-hidden="true"&gt;x&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class="cor-info"&gt;<br>&nbsp;&lt;strong&gt; Avisos de Informações.&lt;strong/&gt;<br>&nbsp;&nbsp;&lt;a class="close" data-dismiss="alert" href="#" aria-hidden="true"&gt;x&lt;/a&gt;<br>&lt;/div&gt;</code></pre>
                         </div>    
 
@@ -319,10 +325,10 @@
                                 </p>
 
                                 <div class="exemplo">
-                                    <p>Exemplo</p>
+                                    <p>Exemplo:</p>
 
 <pre><code>&lt;div class="fluid-video"&gt;
-&lt;iframe width="560" height="315" src="..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="..." frameborder="0" allowfullscreen&gt; &lt;/iframe&gt;
 &lt;/div&gt;</code></pre>
                                 </div>
 
