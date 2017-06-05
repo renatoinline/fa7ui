@@ -408,6 +408,19 @@ menu {
   display: block;
 }
 
+.menu-horizontal ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-horizontal ul > li {
+  display: inline-block;
+  border: 3px solid gray; 
+  padding: 5px;
+  background-color: gray; 
+}
+
 /*
  * Add the correct display in all browsers.
  */
